@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/* Don't set height to nav it causes the text to overflow
+when page is shrinked instead add padding or min-height */
+nav ul {
+  display: flex;
+  background: lightblue;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  list-style: none;
+}
+
+/* //background size adapt to the screen size */
+.hero {
+  min-height: 90vh;
+  background-image: url('/pexels-hasan-albari-1229861.jpg');
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+.hero button{
+  background: peru;
+  border:none;
+  padding: .5rem 2rem;
+  color: white;
+  font-family: Cambria;
+  cursor: pointer;
+}
+.hero h2{
+  margin: 2rem;
+  text-align: center;
+}
+.intro{
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro img{
+  width: 100%;
+}
+.intro-img{
+flex: 1 1 20rem;
+
+}
+.intro-text{
+flex: 1 1 20rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.intro-text h2{
+  padding: 2rem;
+}
+.intro-text h2{
+  padding: 2rem;
+}
+.intro-text p{
+  padding: 1rem;
+}
